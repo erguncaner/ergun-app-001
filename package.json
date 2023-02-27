@@ -9,8 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
-    "dist": "electron-builder --linux snap"
+    "lint": "echo \"No linting configured\""
   },
   "keywords": [],
   "author": {
@@ -27,6 +26,7 @@
     "@electron-forge/maker-rpm": "^6.0.5",
     "@electron-forge/maker-squirrel": "^6.0.5",
     "@electron-forge/maker-zip": "^6.0.5",
+    "@electron-forge/maker-snap": "^6.0.5",
     "electron": "23.1.1",
     "electron-builder": "^23.6.0"
   }
